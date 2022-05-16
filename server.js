@@ -7,7 +7,7 @@ const app = express();
 
 // Seta as configurações do CORS. No caso, especifica que apenas conexões de tal endereço serão aceitas. Ver: // https://expressjs.com/en/resources/middleware/cors.html
 var corsOptions = {
-  origin: "https://www.rafael-escarabelo-ead02-tc2.tk"
+  origin: "*"
 };
 
 // Ativa a configuração CORS
